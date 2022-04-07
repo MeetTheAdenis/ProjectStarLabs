@@ -1,0 +1,238 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1199px) {
+
+  .became-member .container,
+  .footer .container,
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .hero-form img {
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .gallery-boxes img {
+    width: 32%;
+  }
+
+  .hero-form {
+    overflow: hidden;
+  }
+
+  .hero-form form input {
+    width: -webkit-fill-available;
+  }
+
+  .hero-form form {
+    padding: 40px;
+
+  }
+
+  .facilities-menu {
+    margin-right: 0;
+  }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .hero-form {
+    overflow: hidden;
+  }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+@media only screen and (max-width: 600px) {
+
+  .header .nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .hero-title {
+
+    flex-direction: column;
+    margin: 15px auto;
+  }
+
+  .hero-form {
+    flex-direction: column;
+  }
+
+  .hero-form form h3 {
+    font-size: 26px;
+  }
+
+  .hero-title h2 {
+    font-size: 45px;
+    line-height: 50px;
+    padding-bottom: 20px;
+  }
+
+  .hero-form form {
+    margin: auto;
+
+  }
+
+  .our-space-section .top {
+    flex-direction: column;
+  }
+
+  .space-boxes {
+    flex-direction: column;
+  }
+
+  .space-boxes .space-box {
+    width: 100%;
+    margin-bottom: 65px;
+  }
+
+  .why-frispes-section .container {
+    flex-direction: column-reverse;
+  }
+
+  .facilities-boxes {
+    flex-direction: column;
+  }
+
+  .facilities-boxes>img {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .gallery-boxes {
+    flex-direction: column;
+  }
+
+  .gallery-boxes img {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+
+  .use-frispes-boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .use-frispes-boxes img {
+    height: 45px;
+    margin: 15px;
+  }
+
+  .center-top {
+    margin-bottom: 25px;
+  }
+
+  .customer-reviews-section .review-boxes {
+    flex-direction: column;
+  }
+
+  .review-boxes .review-box {
+
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .faq-boxes {
+    flex-direction: column;
+  }
+
+  .faq-boxes .faq-box {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+  .faq-boxes {
+    margin-bottom: 0;
+  }
+
+  .top-news {
+    flex-direction: column;
+  }
+
+  div.top-news>h2 {
+    margin-bottom: 15px;
+  }
+
+  .news-container {
+    grid-template-columns: auto;
+  }
+
+  .news-container .news1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .news1>.news1-info h4 {
+    font-size: 22px;
+  }
+
+  .news1 .news1-info {
+    padding: 15px;
+  }
+
+  .news1>.news1-info h4 {
+    font-size: 22px;
+    margin: 10px auto;
+  }
+
+  .news1>.news1-info>p {
+    margin: 10px auto;
+  }
+
+  p.news1-name {
+    font-size: 16px;
+  }
+
+  p.news1-title {
+    font-size: 15px;
+  }
+
+  .member-boxes {
+    flex-direction: column;
+  }
+
+  div.member-box:nth-child(1) {
+    padding: 50px 0px;
+  }
+
+  .footer-boxes {
+    flex-direction: column;
+  }
+
+  .footer-box {
+    margin-bottom: 25px;
+  }
+
+  .footer .container {
+    padding-bottom: 0px;
+  }
+
+}
+
+@media (max-width:768px) {
+
+  .login-form,
+  .contact-form {
+    width: 100%;
+  }
+
+  .login-form form,
+  .contact-form form {
+    width: 90%;
+  }
+}

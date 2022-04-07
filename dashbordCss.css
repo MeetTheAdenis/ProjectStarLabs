@@ -1,0 +1,33 @@
+body {
+    font-family: Lato;
+    color: #222831;
+    font-size: 16px;
+    margin: 0;
+    background-color: rgb(156, 177, 170);
+  
+}
+
+.alldivs {
+    font-family: Lato;
+    margin-top: 20px;
+    margin-left: 5px;
+
+}
+
+table{
+    width: 850px;
+    background-color: rgb(148, 165, 165);
+}
+
+h3{
+    margin-top: 80px;
+    margin-right: 20px;
+    float: right;
+    color: rgb(5, 5, 5);
+    text-align: left;
+}
+
+.lastTable{
+      margin-bottom: 10px;
+
+}
